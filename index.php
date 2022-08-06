@@ -22,11 +22,16 @@
 
     <h2>forth band</h2>
     <input id="milier" type="text" placeholder="milier"/>  
-    <button id="mil" type="button">Click Me!</button>
+    <button id="mil" type="button">milier</button>
     
     <h2>multiplier</h2>
-    
+    <input id="multi" type="text" placeholder="multiplier"/>  
+    <button id="mul" type="button">multiplier</button>
+
     <h2>tolerance</h2>
+    <input id="tol" type="text" placeholder="tolerance"/>  
+    <button id="tole" type="button">tolerance</button>
+
     <script src="script/script.js"></script>
 </body>
 </html>

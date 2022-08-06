@@ -209,9 +209,108 @@ function handlerClic(e) {
       result.splice(0, 0, 9)
       console.log(result)
     return result    
+    }
+    if (multi.value==="black"){
+      result = result * 1
+      console.log(result)
+    return result
     } 
+    if (multi.value==="brown"){
+      result = result * 10
+        console.log(result)
+      return result
+    }
+    if (multi.value==="red"){
+      result = result * 100
+      console.log(result)
+    return result
+    }
+    if (multi.value==="orange"){
+      result = result * 1000
+      console.log(result)
+    return result
+    }
+    if (multi.value==="yellow"){
+      result = result * 10000
+      console.log(result)
+    return result
+    }
+    if (multi.value==="green"){
+      result = result * 100000
+      console.log(result)
+    return result
+    }
+    if (multi.value==="blue"){
+      result = result * 1000000
+      console.log(result)
+    return result
+    }
+    if (multi.value==="violet"){
+      result = result * 10000000
+      console.log(result)
+    return result
+    }
+    if (multi.value==="grey"){
+      result = result * 100000000
+      console.log(result)
+    return result
+    }
+    if (multi.value==="white"){
+      result = result * 1000000000
+      console.log(result)
+    return result    
+    }  
+    if (multi.value==="gold"){
+      result = result * 0.1
+      console.log(result)
+    return result    
+    }  
+    if (multi.value==="silver"){
+      result = result * 0.01
+      console.log(result)
+    return result    
+    }  
+    if (tol.value==="brown"){
+      result = result + (result * 1)/100
+        console.log(result)
+      return result
+    }
+    if (tol.value==="red"){
+      result = result + (result * 2)/100
+        console.log(result)
+      return result
+    }
+    if (tol.value==="green"){
+      result = result + (result * 0.5)/100
+        console.log(result)
+      return result
+    }
+    if (tol.value==="blue"){
+      result = result + (result * 0.25)/100
+        console.log(result)
+      return result
+    }
+    if (tol.value==="violet"){
+      result = result + (result * 0.1)/100
+        console.log(result)
+      return result
+    }
+    if (tol.value==="grey"){
+      result = result + (result * 0.05)/100
+        console.log(result)
+      return result
+    }
+    if (multi.value==="gold"){
+      result = result + (result * 5)/100
+      console.log(result)
+    return result    
+    }  
+    if (multi.value==="silver"){
+      result = result + (result * 10)/100
+      console.log(result)
+    return result 
+    }
 }
-  
   function initHandlerClic() {
     clic.addEventListener("click",handlerClic);
   }
