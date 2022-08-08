@@ -1,9 +1,12 @@
-let clic = document.querySelector('#unit');
+// let clic = document.querySelector('#unit');
 let unite = document.querySelector('#unite');
 let dizaine = document.querySelector('#dizaine');
 let diz = document.querySelector('#diz');
 let centaine = document.querySelector('#centaine');
 let cent = document.querySelector('#cent');
+let mil = document.querySelector('#mil');
+let mul = document.querySelector('#mul');
+let tole = document.querySelector('#mul');
 let result =[]
 
 //evenements
@@ -60,6 +63,15 @@ function handlerClic(e) {
       console.log(result)
     return result
     }
+} 
+
+function initHandlerClic() {
+  unit.addEventListener("click",handlerClic);
+}
+
+window.addEventListener("load",initHandlerClic);
+  
+function handlerClic2(e) {
     if (dizaine.value==="black"){
       result.splice(0, 0, 0)
       console.log(result)
@@ -110,6 +122,14 @@ function handlerClic(e) {
       console.log(result)
     return result
     }
+}
+function initHandlerClic2() {
+  diz.addEventListener("click",handlerClic2);
+}
+
+window.addEventListener("load",initHandlerClic2);
+
+function handlerClic3(e) {
     if (centaine.value==="black"){
       result.splice(0, 0, 0)
       console.log(result)
@@ -160,6 +180,14 @@ function handlerClic(e) {
       console.log(result)
     return result    
     } 
+} 
+
+function initHandlerClic3() {
+  cent.addEventListener("click",handlerClic3);
+}
+
+window.addEventListener("load",initHandlerClic3);
+function handlerClic4(e) {
     if (milier.value==="black"){
       result.splice(0, 0, 0)
       console.log(result)
@@ -210,109 +238,134 @@ function handlerClic(e) {
       console.log(result)
     return result    
     }
+} 
+function initHandlerClic4() {
+  mil.addEventListener("click",handlerClic4);
+}
+
+let results = result.map(function (x) { 
+  let resistor = parseInt(x, 10);
+  return resistor 
+});
+
+window.addEventListener("load",initHandlerClic4);
+function handlerClic5(e) {
     if (multi.value==="black"){
-      result = result * 1
-      console.log(result)
+      resistor = resistor * 1
+      console.log(resistor)
     return result
     } 
     if (multi.value==="brown"){
-      result = result * 10
-        console.log(result)
-      return result
+      resistor = resistor * 10
+        console.log(resistor)
+      return resistor
     }
     if (multi.value==="red"){
-      result = result * 100
-      console.log(result)
-    return result
+      resistort = resistor * 100
+      console.log(resistor)
+    return resistor
     }
     if (multi.value==="orange"){
-      result = result * 1000
-      console.log(result)
-    return result
+      resistor = resistor * 1000
+      console.log(resistor)
+    return resistor
     }
     if (multi.value==="yellow"){
-      result = result * 10000
-      console.log(result)
-    return result
+      resistor = resistor * 10000
+      console.log(resistor)
+    return resistor
     }
     if (multi.value==="green"){
-      result = result * 100000
-      console.log(result)
-    return result
+      resistor = resistor * 100000
+      console.log(resistor)
+    return resistor
     }
     if (multi.value==="blue"){
-      result = result * 1000000
-      console.log(result)
-    return result
+      resistor = resistor * 1000000
+      console.log(resistor)
+    return resistor
     }
     if (multi.value==="violet"){
-      result = result * 10000000
-      console.log(result)
-    return result
+      resistor = resistor * 10000000
+      console.log(resistor)
+    return resistor
     }
     if (multi.value==="grey"){
-      result = result * 100000000
-      console.log(result)
-    return result
+      resistor = resistor * 100000000
+      console.log(resistor)
+    return resistor
     }
     if (multi.value==="white"){
-      result = result * 1000000000
-      console.log(result)
-    return result    
-    }  
+      resistor = resistor * 1000000000
+      console.log(resistor)
+    return resistor    
+  } 
+
     if (multi.value==="gold"){
-      result = result * 0.1
-      console.log(result)
-    return result    
+      resistor = resistor * 0.1
+      console.log(resistor)
+    return resistor    
     }  
     if (multi.value==="silver"){
-      result = result * 0.01
-      console.log(result)
-    return result    
-    }  
+      resistor = resistor * 0.01
+      console.log(resistor)
+    return resistor    
+    } 
+  }
+function initHandlerClic5() {
+  mul.addEventListener("click",handlerClic5);
+}
+
+window.addEventListener("load",initHandlerClic5);
+function handlerClic6(e) { 
     if (tol.value==="brown"){
-      result = result + (result * 1)/100
-        console.log(result)
-      return result
+      // result = result + (result * 1)/100
+        console.log("tolerance: 1%")
+      // return result
     }
     if (tol.value==="red"){
-      result = result + (result * 2)/100
-        console.log(result)
-      return result
+      // result = result + (result * 2)/100
+        console.log("tolerance: 2%")
+      // return result
     }
     if (tol.value==="green"){
-      result = result + (result * 0.5)/100
-        console.log(result)
-      return result
+      // result = result + (result * 0.5)/100
+        console.log("tolerance: 0.5%")
+      // return result
     }
     if (tol.value==="blue"){
-      result = result + (result * 0.25)/100
-        console.log(result)
-      return result
+      // result = result + (result * 0.25)/100
+        console.log("tolerance: 0.25%")
+      // return result
     }
     if (tol.value==="violet"){
-      result = result + (result * 0.1)/100
-        console.log(result)
-      return result
+      // result = result + (result * 0.1)/100
+        console.log("tolerance: 0.10%")
+      // return result
     }
     if (tol.value==="grey"){
-      result = result + (result * 0.05)/100
-        console.log(result)
-      return result
+      // result = result + (result * 0.05)/100
+        console.log("tolerance: 0.05%")
+      // return result
     }
     if (multi.value==="gold"){
-      result = result + (result * 5)/100
-      console.log(result)
-    return result    
+      // result = result + (result * 5)/100
+      console.log("tolerance: 5%")
+    // return result    
     }  
     if (multi.value==="silver"){
-      result = result + (result * 10)/100
-      console.log(result)
-    return result 
+      // result = result + (result * 10)/100
+      console.log("tolerance: 10%")
+    // return result 
     }
-}
-  function initHandlerClic() {
-    clic.addEventListener("click",handlerClic);
   }
+    function initHandlerClic6() {
+      tole.addEventListener("click",handlerClic6);
+    }
+    
+    window.addEventListener("load",initHandlerClic6);
+
   
-  window.addEventListener("load",initHandlerClic);
+
+  
+
