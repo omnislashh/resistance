@@ -33,6 +33,12 @@
     <button id="tole" type="button">tolerance</button>
 
     <div id="tag-id"></div>
+    <ul id="list">
+        
+    </ul>
+
+
     <script src="script/script.js"></script>
+
 </body>
 </html>
