@@ -86,60 +86,60 @@ function handlerClic2(e) {
     if (dizaine.value==="black"){
       result.splice(0, 0, 0)
       console.log(result)
-      list.innerHTML += `<li><a href="#">Unités: 0</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 0</a></li>`;
     return result
     } 
     if (dizaine.value==="brown"){
         result.splice(0, 0, 1)
         console.log(result)
-        list.innerHTML += `<li><a href="#">Unités: 1</a></li>`;
+        list.innerHTML += `<li><a href="#">Dizaines: 1</a></li>`;
       return result
     }
     if (dizaine.value==="red"){
       result.splice(0, 0, 2)
-      list.innerHTML += `<li><a href="#">Unités: 2</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 2</a></li>`;
       console.log(result)
     return result
     }
     if (dizaine.value==="orange"){
       result.splice(0, 0, 3)
       console.log(result)
-      list.innerHTML += `<li><a href="#">Unités: 3</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 3</a></li>`;
     return result
     }
     if (dizaine.value==="yellow"){
       result.splice(0, 0, 4)
-      list.innerHTML += `<li><a href="#">Unités: 4</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 4</a></li>`;
       console.log(result)
     return result
     }
     if (dizaine.value==="green"){
       result.splice(0, 0, 5)
-      list.innerHTML += `<li><a href="#">Unités: 5</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 5</a></li>`;
       console.log(result)
     return result
     }
     if (dizaine.value==="blue"){
       result.splice(0, 0, 6)
-      list.innerHTML += `<li><a href="#">Unités: 6</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 6</a></li>`;
       console.log(result)
     return result
     }
     if (dizaine.value==="violet"){
       result.splice(0, 0, 7)
-      list.innerHTML += `<li><a href="#">Unités: 7</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 7</a></li>`;
       console.log(result)
     return result
     }
     if (dizaine.value==="grey"){
       result.splice(0, 0, 8)
-      list.innerHTML += `<li><a href="#">Unités: 8</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 8</a></li>`;
       console.log(result)
     return result
     }
     if (dizaine.value==="white"){
       result.splice(0, 0, 9)
-      list.innerHTML += `<li><a href="#">Unités: 9</a></li>`;
+      list.innerHTML += `<li><a href="#">Dizaines: 9</a></li>`;
       console.log(result)
     return result
     }

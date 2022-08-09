@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+h3{
+    display: block;
+    text-align: center;
+}
+.values {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    list-style: none;
+    flex-direction: row-reverse;
+}
